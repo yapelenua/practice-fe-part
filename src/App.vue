@@ -1,6 +1,6 @@
 <template>
   <div style="font-family: Arial; padding: 40px">
-    <h1>Vue → Node Demo v2</h1>
+    <h1>Love my Kate</h1>
 
     <button @click="fetchHello">
       Call Backend

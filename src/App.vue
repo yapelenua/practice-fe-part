@@ -1,6 +1,6 @@
 <template>
   <div style="font-family: Arial; padding: 40px">
-    <h1>Love my Kate</h1>
+    <h1>Love my Kate v2</h1>
 
     <button @click="fetchHello">
       Call Backend
@@ -25,7 +25,7 @@ async function fetchHello() {
   error.value = null
 
   try {
-    const response = await axios.get('http://localhost:8080/hello')
+    const response = await axios.get('https://backend-297525666584.europe-west1.run.app/hello')
     const data = response.data
     message.value = data.message
   } catch (err) {
